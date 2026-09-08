@@ -16,3 +16,10 @@ def calculator(a, b, op):
 print("1) calculator 테스트:")
 print(calculator(10, 3, "/"))
 print(calculator(5, 0, "/"))
+
+def format_receipt(name, price):
+	return f"[{name}]}]" 가격: {price:,}원"
+
+print("\n2) format_receipt 테스트:")
+print(format_receipt("라떼", 5500))
+print(format_receipt("아메리카노", 4000))
